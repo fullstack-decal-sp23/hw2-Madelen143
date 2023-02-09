@@ -30,14 +30,16 @@ h2 {
 .twovert {
   height: 50%;
 }
-
+/* . is for selecting classes to syle */
 .threevert {
+  height: 33.3%;
 }
 
+/* color: color of outline */
 .threehoriz {
-  width: 33.3%;
+  width: 33.3%; 
 }
-
+/* background-color: the whole background */
 .narrow {
   height: 17.5%;
 }
@@ -59,6 +61,12 @@ h2 {
 
 /* QUESTION 1 */
 
+#white {
+  background-color: white;
+}
+.red {
+  background-color: red;
+}
 .orange {
   background-color: orange;
 }
@@ -75,7 +83,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -83,8 +91,9 @@ h2 {
   background-color: purple;
 }
 
+/* this is styling the id white in poland flag */
 .white {
-  background-color: #fff;
+  background-color: white;
 }
 
 .black {
@@ -93,16 +102,20 @@ h2 {
 
 /* BEGIN QUESTION 2 */
 
+/* without the height attribute specified it will not show */
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 16.66%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: #ffffff;
+  height: 16.66%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 33.32%;
 }
 
 /* END QUESTION 2 */
@@ -111,29 +124,47 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+ 
 }
 
 .romania-yellow {
   background-color: #ffcf00;
+ 
 }
 
 .romania-red {
   background-color: #e10017;
+  
 }
+
 
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
 .mexico-green {
   background-color: #006341;
+  
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center;
+  max-width: 50%;
+  max-height: 51%;
+  
 }
 
 .mexico-red {
   background-color: #ce1126;
+  
+}
+
+.label {
+  color: rgb(124, 124, 192);
+}
+
+/* this is the hover pseudoclass, changes color of selector when hover mouse over it  */
+.label:hover {
+  color: rgb(252, 180, 24);
 }
 
 /* QUESTION 6 */
@@ -145,21 +176,26 @@ h2 {
   display: flex;
   justify-content: center;
 }
-
+/* adding comments so register as changes */
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* height: 300px;
+  width: 500px; */
 }
